@@ -1,0 +1,44 @@
+:root{
+  font-size: 20px;
+  font-family: Open Sans, Roboto;
+  --text-primary: rgb(148, 163, 184);
+  --text-secondary: rgb(255, 85, 0);
+  --bg-primary: rgb(7, 10, 19);
+  --bg-secondary: rgb(21, 20, 43);
+}
+
+body{
+  margin: 0;
+  text-align: justify;
+  line-height: 40px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 4px;
+  background-color: rgba(255, 85, 0, 1);
+  transition: background-color 0.15s;
+}
+
+
+.canvas{
+  display: flex;
+}
+
+.right-panel{
+  flex: 1;
+}
+
+.left-panel{
+  flex: 1.5;
+}
+
+.main-page{
+  flex: 3;
+  min-width: 400px;
+}

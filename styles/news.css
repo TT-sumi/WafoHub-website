@@ -1,0 +1,98 @@
+.news-page{
+  padding: 20px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 3;
+}
+
+.news-title{
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.news-heading01,
+.news-heading02,
+.news-heading03,
+.news-heading04,
+.news-heading05{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.news-heading02,
+.news-heading03,
+.news-heading04,
+.news-heading05{
+  margin-top: 100px;
+}
+
+.news-p101,
+.news-p201,
+.news-p301,
+.news-p401,
+.news-p501,
+.news-p102,
+.news-p202,
+.news-p302,
+.news-p103,
+.news-p203,
+.news-p303,
+.news-p403,
+.news-p503,
+.news-p603,
+.news-p703,
+.news-p803,
+.news-p903,
+.news-p104,
+.news-p204,
+.news-p304,
+.news-p404,
+.news-p504,
+.news-p604,
+.news-p704,
+.news-p804,
+.news-p105,
+.news-p205,
+.news-p305,
+.news-p405,
+.news-p505,
+.news-p605,
+.news-p705{
+  text-indent: 50px;
+}
+
+.news-pic01,
+.news-pic02,
+.news-pic03,
+.news-pic04,
+.news-pic05{
+  height: 500px;
+  width: 100%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+.news-pic01:hover,
+.news-pic02:hover,
+.news-pic03:hover,
+.news-pic04:hover,
+.news-pic05:hover{
+  filter: brightness(50%);
+}
+
+.news-img01,
+.news-img02,
+.news-img03,
+.news-img04,
+.news-img05{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}

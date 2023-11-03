@@ -1,0 +1,50 @@
+.editorial-page{
+  padding: 20px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 3;
+}
+
+.editorial-title{
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.editorial-heading{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.editorial-p1,
+.editorial-p2,
+.editorial-p3,
+.editorial-p4,
+.editorial-p5{
+  text-indent: 50px;
+}
+
+.editorial-pic{
+  height: 500px;
+  width: 100%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  transition: all 0.2s;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.editorial-pic:hover{
+  filter: brightness(50%);
+}
+
+.editorial-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
